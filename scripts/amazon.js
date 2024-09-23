@@ -1,4 +1,4 @@
-
+import {cart} from '../data/cart.js';
 
 let productsHTML= '';
 
@@ -87,6 +87,6 @@ const productId = button.dataset.productId;
   });
 
   document.querySelector('.js-cart-quantity').innerHTML = cartQuantity;
-  
+   
 })
 }); 
